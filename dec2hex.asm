@@ -3,7 +3,7 @@
 .stack 256
 
 data segment
-	pbuff1 db 'Input a decimal number:','$'
+	pbuff1 db 'Enter a decimal number:','$'
 	pbuff2 db 'To Hex:','$'
 	pbuff3 db ' <-- STOP: Wrong key pressed.',0dh,0ah,'$'
 data ends
